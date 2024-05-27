@@ -1,0 +1,310 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Navbar styling */
+        .navbar {
+            background-color: #f8f9fa;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+            .navbar-brand:hover {
+                color: #007bff;
+            }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #007bff;
+            }
+
+        /* Navbar toggler icon */
+        .navbar-toggler-icon {
+            background-color: #333;
+        }
+
+        .navbar-toggler:hover .navbar-toggler-icon {
+            background-color: #007bff;
+        }
+
+        /* Active link styling */
+        .navbar-nav .nav-item.active .nav-link {
+            color: #007bff;
+        }
+
+/* CSS for MyWork Page*/
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #9FC5E8;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1em;
+}
+
+
+
+
+/* Home Page CSS */
+
+.jumbotron {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 60px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+    .jumbotron h1 {
+        font-size: 48px;
+        color: #4faee3;
+        margin-bottom: 20px;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+        color: #6c757d;
+    }
+
+.btn-primary {
+    background-color: #4faee3;
+    border-color: #4faee3;
+    color: #fff;
+}
+
+    .btn-primary:hover {
+        background-color: #0000FF;
+        border-color: #0000FF;
+    }
+
+.jumbotron .btn-secondary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40;
+}
+
+    .jumbotron .btn-secondary:hover {
+        background-color: #e0a800;
+        border-color: #e0a800;
+    }
+
+.jumbotron .btn-tertiary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+    .jumbotron .btn-tertiary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+
+
+/* Custom CSS for contact form */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #4faee3;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+
+.field-validation-error {
+    color: #ff0000;
+}
+
+.success-message {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .form-header h2 {
+        margin-top: 0;
+    }
+
+.form-footer {
+    text-align: center;
+}
+
+    .form-footer a {
+        color: #4CAF50;
+    }
+
+.submit-button {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* Custom CSS for About Us page */
+.about-page .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-page .about-section,
+.about-page .vision-section,
+.about-page .mission-section,
+.about-page .values-section {
+    margin-bottom: 40px;
+}
+
+.about-page h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-page h3 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-page p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.about-page .values-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-page .values-section li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.about-page .about-section,
+.about-page .vision-section,
+.about-page .mission-section,
+.about-page .values-section {
+    background-color: #9FC5E8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

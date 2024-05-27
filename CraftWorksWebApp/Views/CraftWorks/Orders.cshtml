@@ -1,0 +1,29 @@
+﻿@using CraftWorksWebApp.Models
+@model List<Transaction>
+
+<h1>Orders</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Transaction ID</th>
+            <th>User ID</th>
+            <th>Product ID</th>
+            <th>Transaction Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.TransactionID</td>
+                <td>@order.UserID</td>
+                <td>@order.ProductID</td>
+                <td>@order.TransactionDate</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
